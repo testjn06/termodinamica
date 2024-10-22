@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Sciorra Adriano">
+        <title>Test de Termodinámica y Aeronáutica</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="newbery.ico">
+
+        <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCGMbiKv91StDrQ-HMSyLYykC4IiWBHpk8",
+    authDomain: "testjn-dc239.firebaseapp.com",
+    projectId: "testjn-dc239",
+    storageBucket: "testjn-dc239.appspot.com",
+    messagingSenderId: "741561670730",
+    appId: "1:741561670730:web:2a6b6764668cdff2399ab3",
+    measurementId: "G-PPJLVZ1C7K"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+    </head>
+<body>
+    <div class="container">
+        <h1>Test de Termodinámica y Aeronáutica</h1>
+        <div id="question-container">
+            <p id="question"></p>
+            <div id="answer-buttons" class="btn-container"></div>
+        </div>
+        <div id="score-container">
+            <p>Puntaje: <span id="score">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

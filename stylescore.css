@@ -1,0 +1,28 @@
+#score-table td {
+    color: black;
+    font-size: 1.2em; /* Ajusta el tamaño según prefieras */
+    font-weight: bold; /* Esto hará que se vea más destacado */
+
+}
+
+#score-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Centramos la tabla en la página */
+}
+
+#score-table th, #score-table td {
+    text-align: center; /* Centramos el texto dentro de las celdas */
+    padding: 10px; /* Añadimos espacio alrededor del texto */
+    border: 1px solid #ccc; /* Bordes de la tabla */
+    color: black; /* Hacemos que el texto sea negro */
+}
+
+#score-table th {
+    background-color: #f4f4f4; /* Fondo gris claro para los encabezados */
+}
+
+#score-table td {
+    font-size: 1.2em; /* Ajusta el tamaño según prefieras */
+    font-weight: bold; /* Hacemos que el puntaje sea más destacado */
+}
