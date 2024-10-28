@@ -2,7 +2,6 @@ let currentQuestionIndex = 0;
 let score = 0;
 let answered = false;
 
-
 // Preguntas relacionadas con la termodinámica y la aeronáutica
 const questions = [
     {
@@ -43,8 +42,7 @@ const questions = [
             "La cantidad de energía calorífica en un sistema",
             "El equilibrio térmico"
         ],
-        correctAnswer: "La medida del desorden de un sistema",
-        correctAnswer: "La cantidad de energía calorífica en un sistema"
+        correctAnswer: "La medida del desorden de un sistema"
     },
     {
         question: "¿Qué parte del avión controla la altitud?", //5
@@ -74,7 +72,7 @@ const questions = [
             "Divergente",
             "Divergente-Convergente"
         ],
-        correctAnswer: "Divergente"
+        correctAnswer: "Convergente"
     },
     {
         question: "¿Qué tipo de conducto de entrada se utiliza en velocidades supersonicas?", //8
@@ -85,128 +83,7 @@ const questions = [
             "Divergente-Convergente"
         ],
         correctAnswer: "Convergente"
-    },
-    {
-        question: "¿Qué tipo de conducto de entrada se utiliza en velocidades supersonicas?", //9
-        options: [
-            "Convergente",
-            "Convergente-Divergente",
-            "Divergente",
-            "Divergente-Convergente"
-        ],
-        correctAnswer: "Convergente"
-    },
-    {
-        question: "¿Qué tipo de conducto de entrada se utiliza en velocidades supersonicas?", //10
-        options: [
-            "Convergente",
-            "Convergente-Divergente",
-            "Divergente",
-            "Divergente-Convergente"
-        ],
-        correctAnswer: "Convergente"
-    },
-    {
-        question: "¿Qué tipo de conducto de entrada se utiliza en velocidades supersonicas?", //11
-        options: [
-            "Convergente",
-            "Convergente-Divergente",
-            "Divergente",
-            "Divergente-Convergente"
-        ],
-        correctAnswer: "Convergente"
-    },
-    {
-        question: "¿Qué tipo de conducto de entrada se utiliza en velocidades supersonicas?", //12
-        options: [
-            "Convergente",
-            "Convergente-Divergente",
-            "Divergente",
-            "Divergente-Convergente"
-        ],
-        correctAnswer: "Convergente"
-    },
-    {
-        question: "¿Qué tipo de conducto de entrada se utiliza en velocidades supersonicas?", //13
-        options: [
-            "Convergente",
-            "Convergente-Divergente",
-            "Divergente",
-            "Divergente-Convergente"
-        ],
-        correctAnswer: "Convergente"
-    },
-    {
-        question: "¿Qué tipo de conducto de entrada se utiliza en velocidades personicas?", //14
-        options: [
-            "Convergente",
-            "Convergente-Divergente",
-            "Divergente",
-            "Divergente-Convergente"
-        ],
-        correctAnswer: "Convergente"
-    },
-    {
-        question: "¿Qué tipo de conducto de entrada se utiliza en velocidades supersonicas?", //15
-        options: [
-            "Convergente",
-            "Convergente-Divergente",
-            "Divergente",
-            "Divergente-Convergente"
-        ],
-        correctAnswer: "Convergente"
-    },
-    {
-        question: "¿Qué tipo de conducto de entrada se utiliza en velocidades supersonicas?", //16
-        options: [
-            "Convergente",
-            "Convergente-Divergente",
-            "Divergente",
-            "Divergente-Convergente"
-        ],
-        correctAnswer: "Convergente"
-    },
-    {
-        question: "¿Qué tipo de conducto de entrada se utiliza en velocidades supersonicas?", //17
-        options: [
-            "Convergente",
-            "Convergente-Divergente",
-            "Divergente",
-            "Divergente-Convergente"
-        ],
-        correctAnswer: "Convergente"
-    },
-    {
-        question: "¿Qué tipo de conducto de entrada se utiliza en velocidades supersonicas?", //18
-        options: [
-            "Convergente",
-            "Convergente-Divergente",
-            "Divergente",
-            "Divergente-Convergente"
-        ],
-        correctAnswer: "Convergente"
-    },
-    {
-        question: "¿Qué tipo de conducto de entrada se utiliza en velocidades supersonicas?", //19
-        options: [
-            "Convergente",
-            "Convergente-Divergente",
-            "Divergente",
-            "Divergente-Convergente"
-        ],
-        correctAnswer: "Convergente"
-    },
-    {
-        question: "¿Qué tipo de conducto de entrada se utiliza en velocidades supersonicas?", //20
-        options: [
-            "Convergente",
-            "Convergente-Divergente",
-            "Divergente",
-            "Divergente-Convergente"
-        ],
-        correctAnswer: "Convergente"
     }
-
 ];
 
 // Mostrar la pregunta y las opciones
@@ -307,3 +184,6 @@ function endQuiz() {
         }
     });
 }
+
+// Llamar a `showQuestion` para iniciar el cuestionario
+showQuestion();
